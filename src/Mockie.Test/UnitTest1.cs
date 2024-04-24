@@ -1,12 +1,12 @@
+using Xunit;
+
 namespace Mockie.Test;
 
-[TestClass]
 public class UnitTest1
-{
-    [TestMethod]
+{ 
+    [Fact]
     public void TestMethod1()
     {
         var text = "hello";
-        
     }
 }
