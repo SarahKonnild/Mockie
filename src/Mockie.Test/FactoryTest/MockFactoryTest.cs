@@ -12,7 +12,7 @@ public class MockFactoryTest
     {
         // ARRANGE
         var mockFactory = new MockFactory();
-        
+
         // ACT
         var mock = mockFactory.CreateMock<TestClass>();
 
