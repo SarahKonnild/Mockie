@@ -10,4 +10,8 @@
         <InternalsVisibleTo Include="Mockie.Test"/>
     </ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Castle.Core" Version="5.1.1" />
+	</ItemGroup>
+
 </Project>
